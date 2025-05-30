@@ -26,7 +26,7 @@ const GuessDisplay = ({ ranNum }) => {
   return (
     <div className="container">
       <div className="container w-[50%] mx-auto mt-[10rem] text-center bg-gray-600 rounded-2xl pt-3">
-        <div className="h-10 w-20 bg-gray-500 ml-40 text-center justify-center rounded-full pt-2">
+        <div className="h-10 w-20 bg-gray-500 ml-72 text-center justify-center rounded-full pt-2">
           <h1 className="text-2xl">{correctAnsa ? ranNum : "?"}</h1>
         </div>
         <div>
